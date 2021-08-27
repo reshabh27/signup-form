@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+	background-image: url("./images/bg-intro-mobile.png");
+	background-color: hsl(0, 100%, 74%);
+	font-family: 'Poppins', sans-serif;
+	color: rgb(232, 236, 243);
+	Font-size: 16px;
+}
+
+
+#fbox{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 10%;
+}
+
+
+#firstbox{
+	flex-basis: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+
+#f_1{
+	font-weight: 700;
+	font-size: 30px;
+}
+
+
+#f_2{
+	margin-bottom: 10px;
+}
+
+
+#secondbox{
+	flex-basis: 90%;
+	margin: auto;
+}
+
+#s_1{
+	background-color: hsl(248, 32%, 49%);
+	box-shadow: 0px 6px rgba(26, 25, 25, 0.2);
+	margin-bottom: 20px;
+	border-radius: 10px;
+	padding: 4% 10%;
+	text-align: center;
+}
+
+#btnLogin{
+	background-color: hsl(154, 59%, 51%);
+	color: white;
+	width: 87%;
+	padding: 3%;
+	margin: 2% 6%;
+	border-radius: 8px;
+	font-weight: 570;
+	font-size: medium;
+}
+
+
+#tifd{
+	font-weight: 700;
+}
+
+
+#s_2{
+	background-color: white;
+	padding: 4%;
+	border-radius: 10px;
+	font-size: small;
+	color:  hsl(246, 25%, 77%);
+}
+
+.inpbox{
+	padding: 3%;
+	margin: 2% 6%;
+	width: 80%;
+	/* border: 2px solid hsl(0, 100%, 74%); */
+}
+
+/* #txtEmail{
+	border: 1px solid #979494;
+} */
+#tas{
+	color: hsl(0, 100%, 74%);
+	font-weight: 600;
+}
+
+
+#lastl{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+
+
+#errorBox1 {
+	color: #F00;
+	text-align: end;
+	margin-right: 10%;
+}
+#errorBox2{
+	color: #F00;
+	text-align: end;
+	margin-right: 10%;
+}
+#errorBox3{
+	color: #F00;
+	text-align: end;
+	margin-right: 10%;
+}
+
+
+@media (min-width:800px) {
+	#fbox{
+		flex-wrap: nowrap;
+		width: 80%;
+		margin: auto;
+		margin-top: 8%;
+	}
+	#firstbox{
+		flex-basis: 40%;
+	}
+	#f_1{
+		font-size: 40px;
+	}
+	#secondbox{
+		flex-basis: 40%;
+	}
+
+}
