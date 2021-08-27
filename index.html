@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="javas.js"></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+	<div id="fbox">
+		<div id="firstbox">
+			<div id="f_1">
+				Learn to code by watching others
+			</div>
+			<br>
+			<div id="f_2">
+				See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+				  but understanding how developers think is invaluable. 
+			</div>
+		</div>
+	  
+		
+		<div id="secondbox">
+			<div id="s_1">
+				<span id="tifd">Try it free 7 days</span> then $20/mo. thereafter
+			</div>
+		
+			<div id="s_2">
+				<form>
+					
+					<input type="text" name="Fname" placeholder="First Name" id="txtName" class="inpbox" required>
+					<div id="errorBox1"></div>
+					<input type="text" name="Lname" placeholder="Last Name" id="r2" class="inpbox">
+					<br>
+					<input type="email" name="Eadress" placeholder="Email Address" id="txtEmail" class="inpbox" required>
+					<div id="errorBox2"></div>
+					<input type="password" name="Pass" placeholder="Password" id="txtPwd" class="inpbox" required>
+					<div id="errorBox3"></div>
+					
+					<input type="button" value="CLAIM YOUR FREE TRIAL"  id="btnLogin"> 
+				</form>
+				
+				 <br>
+				<div id="lastl">
+					By clicking the button, you are agreeing to our <span id="tas"> Terms and Services</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	
+  <br>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">RESHABH</a>.
+    </p>
+  </footer>
+</body>
+</html>
