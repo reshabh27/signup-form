@@ -64,54 +64,5 @@ $(document).ready(function () {
 			document.getElementById("txtName").style.color = "black";
 		}
 		
-		// if($("#txtEmail").val() == "" && $("#txtPwd").val() == "" && $("#txtName").val() == "")
-		// {
-		// 	$("#txtEmail").focus();
-		// 	$("#errorBox").html("Please Enter Email");
-		// 	$("#txtPwd").focus();
-		// 	$("#errorBox").html("Please Enter Password");
-		// 	$("#txtName").focus();
-		// 	$("#errorBox").html("Please Enter valid Name");
-		// }
-		// else if(email=="" && pwd=="")
-		// {
-		// 	$("#txtEmail").focus();
-		// 	$("#errorBox").html("Please Enter Email");
-		// 	$("#txtPwd").focus();
-		// 	$("#errorBox").html("Please Enter Password");
-		// 	$("#txtName").focus();
-		// }
-		// else if(email=="" && name=="")
-		// {
-		// 	$("#txtEmail").focus();
-		// 	$("#errorBox").html("Please Enter Email");
-		// 	$("#txtName").focus();
-		// 	$("#errorBox").html("Please Enter valid Name");
-		// }
-		// else if(name=="" && pwd=="")
-		// {
-
-		// }
-
-
-
-
-		// if ($("#txtEmail").val() == "") {
-		// 	$("#txtEmail").focus();
-		// 	$("#errorBox").html("Please Enter Email");
-		// 	return false;
-		// } else if (!emailRegex.test(email)) {
-		// 	$("#txtEmail").focus();
-		// 	$("#errorBox").html("Please Enter Valid Email");
-		// 	return false;
-		// } else if ($("#txtPwd").val() == "") {
-		// 	$("#txtPwd").focus();
-		// 	$("#errorBox").html("Please Enter Password");
-		// 	return false;
-		// } else if ($(email != "" && pwd != "")) {
-			// $.cookie('username', 'demo', { expires: 1 });
-			// var currentusr = $.cookie('username');
-			// window.location.href = 'Register.html';
-		// }
 	});
 });
