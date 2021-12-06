@@ -1,12 +1,5 @@
 # Intro component with sign up form solution
 
-This is a solution to the [Intro component with sign up form challenge on Frontend Mentor]
-
-
-## Overview
-
-### The challenge
-
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
